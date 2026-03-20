@@ -1,5 +1,12 @@
 # Buttercup Browser Extension Community changelog
 
+## v3.2.1
+_2024-04-09_
+
+ * **Bugfix**:
+   * Fixed reserved port conflicts on Windows preventing desktop app from connecting to the browser extension (ports shifted)
+ * Introduced `cross-env` for consistent environment variable handling across operating systems
+
 ## v3.2.0
 _2024-04-09_
 
